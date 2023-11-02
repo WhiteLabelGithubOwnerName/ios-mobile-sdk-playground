@@ -1770,6 +1770,39 @@
             "moduleName": "StagingWalleeSdk"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "StagingWalleeSdk.AnimationEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationEnum",
+                    "printedName": "StagingWalleeSdk.AnimationEnum",
+                    "usr": "s:16StagingWalleeSdk13AnimationEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16StagingWalleeSdk13AnimationEnumO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16StagingWalleeSdk13AnimationEnumO8rawValueACSgSS_tcfc",
+            "moduleName": "StagingWalleeSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -1807,39 +1840,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "StagingWalleeSdk.AnimationEnum?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnimationEnum",
-                    "printedName": "StagingWalleeSdk.AnimationEnum",
-                    "usr": "s:16StagingWalleeSdk13AnimationEnumO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16StagingWalleeSdk13AnimationEnumO8rawValueACSgSS_tcfc",
-            "mangledName": "$s16StagingWalleeSdk13AnimationEnumO8rawValueACSgSS_tcfc",
-            "moduleName": "StagingWalleeSdk",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -1981,1183 +1981,413 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 50,
       "value": "\"stagingwallee-payment-sdk-close-app-notification\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
       "kind": "BooleanLiteral",
       "offset": 236,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
       "kind": "Dictionary",
       "offset": 337,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 507,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1126,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1252,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2248,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2479,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3739,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3757,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4104,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 4449,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 4465,
-      "length": 17,
-      "value": "\"customerSchemas\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 4503,
-      "length": 4,
-      "value": "\"{}\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 4509,
-      "length": 15,
-      "value": "\"animationType\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 4553,
-      "length": 7,
-      "value": "\"slide\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 4562,
-      "length": 28,
-      "value": "\"applePayMerchantIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 4839,
-      "length": 54,
-      "value": "\"StagingWallee.bundle\/stagingwalleesdkbundle.jsbundle\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 4993,
-      "length": 49,
-      "value": "\"http:\/\/localhost:8081\/index.bundle?platform=ios\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "StringLiteral",
-      "offset": 5419,
-      "length": 12,
-      "value": "\"PaymentSdk\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5734,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5756,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNScreenController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6318,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/ConsoleErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 25,
       "value": "\"Token can not be empty!\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/ConsoleErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 25,
       "value": "\"Token can not be empty!\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 15,
       "value": "\"twint-payment\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 14,
       "value": "\"twint_result\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 27,
       "value": "\"TWINT_EVENT_LISTENER_NAME\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 566,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 566,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
-      "kind": "StringLiteral",
-      "offset": 1987,
-      "length": 16,
-      "value": "\"TWINT_DATA_KEY\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
-      "kind": "StringLiteral",
-      "offset": 2034,
-      "length": 18,
-      "value": "\"TWINT_EVENT_NAME\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2162,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2554,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2621,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3320,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3390,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/Twint\/TwintModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5111,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 9,
       "value": "\"TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 9,
       "value": "\"TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
-      "kind": "Array",
-      "offset": 656,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 716,
-      "length": 6,
-      "value": "\"code\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 889,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1050,
-      "length": 62,
-      "value": "\"Failed to load send even JSON: \""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1111,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePayButton.swift",
-      "kind": "StringLiteral",
-      "offset": 476,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePayButton.swift",
-      "kind": "StringLiteral",
-      "offset": 483,
-      "length": 36,
-      "value": "\"Comunication between RN and Native\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePayButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1100,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "BooleanLiteral",
-      "offset": 322,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 13,
-      "value": "\"countryCode\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 643,
-      "length": 14,
-      "value": "\"currencyCode\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 708,
-      "length": 13,
-      "value": "\"totalAmount\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 771,
-      "length": 12,
-      "value": "\"totalLabel\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 840,
-      "length": 19,
-      "value": "\"supportedNetworks\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 909,
-      "length": 10,
-      "value": "\"products\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 15,
-      "value": "\"event_failure\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 1000,
-      "length": 41,
-      "value": "\"Apple pay was triggered with wrong data\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 1437,
-      "length": 15,
-      "value": "\"event_failure\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 1454,
-      "length": 16,
-      "value": "\"Payment failed\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 1767,
-      "length": 19,
-      "value": "\"supportedNetworks\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 1826,
-      "length": 69,
-      "value": "\"--------------Apple pay was triggered with wrong data--------------\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 1922,
-      "length": 15,
-      "value": "\"event_failure\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ApplePay.swift",
-      "kind": "StringLiteral",
-      "offset": 1939,
-      "length": 41,
-      "value": "\"Apple pay was triggered with wrong data\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 496,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 502,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2218,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2329,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2522,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3810,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3816,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4131,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4316,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4568,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4859,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4865,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalPresentationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5856,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalTransitioningDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 256,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/ModalTransitioningDelegate.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 26,
       "value": "\"StagingWalleeSdk.ModalTransitioningDelegate\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/CloseAppModalModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 188,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/SendEventModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 258,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
       "kind": "StringLiteral",
       "offset": 1034,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "Array",
-      "offset": 1172,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1294,
-      "length": 12,
-      "value": "\"mastercard\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1400,
-      "length": 6,
-      "value": "\"visa\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "Array",
-      "offset": 1973,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "Array",
-      "offset": 2028,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2560,
-      "length": 12,
-      "value": "\"mastercard\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2690,
-      "length": 6,
-      "value": "\"visa\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2962,
-      "length": 7,
-      "value": "\"label\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2974,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3013,
-      "length": 8,
-      "value": "\"amount\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3026,
-      "length": 6,
-      "value": "\"0.00\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3804,
-      "length": 30,
-      "value": "\"Presented payment controller\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3954,
-      "length": 38,
-      "value": "\"Failed to present payment controller\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4875,
-      "length": 7,
-      "value": "\"debit\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4989,
-      "length": 7,
-      "value": "\"debit\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5061,
-      "length": 8,
-      "value": "\"credit\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5133,
-      "length": 7,
-      "value": "\"store\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5206,
-      "length": 9,
-      "value": "\"prepaid\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5275,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6086,
-      "length": 22,
-      "value": "\"Payment result error\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6748,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6842,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6849,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7040,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/PaymentHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7047,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 311,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 369,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 375,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 438,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 442,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 494,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 498,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 553,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 557,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 603,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 29,
       "value": "\"wallee.com.StagingWalleeSdk\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 10,
       "value": "\"RNScreen\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 821,
       "length": 11,
       "value": "\"rn-screen\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
-      "kind": "BooleanLiteral",
-      "offset": 476,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 23,
       "value": "\"StagingWalleeSdk.GlobalEventSenderModule\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 901,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/RNView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 942,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Size.swift",
-      "kind": "IntegerLiteral",
-      "offset": 202,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Size.swift",
-      "kind": "IntegerLiteral",
-      "offset": 336,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Size.swift",
-      "kind": "IntegerLiteral",
-      "offset": 848,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1132,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1739,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1833,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4290,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4476,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4591,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4687,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4884,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/StagingWalleeSdk.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5011,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Theme.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Theme.swift",
       "kind": "BooleanLiteral",
       "offset": 432,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Theme.swift",
-      "kind": "BooleanLiteral",
-      "offset": 827,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1013,
-      "length": 7,
-      "value": "\"light\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1075,
-      "length": 6,
-      "value": "\"dark\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1138,
-      "length": 8,
-      "value": "\"custom\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1216,
-      "length": 12,
-      "value": "\"customBase\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Helpers\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1562,
-      "length": 4,
-      "value": "\"{}\""
-    },
-    {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 74,
       "length": 8,
       "value": "\"bubble\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 7,
       "value": "\"slide\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 74,
       "length": 8,
       "value": "\"bubble\""
     },
     {
-      "filePath": "\/Users\/lukassalek\/Documents\/work\/wallee\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/StagingWallee\/StagingWalleeSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 7,
