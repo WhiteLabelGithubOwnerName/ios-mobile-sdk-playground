@@ -1,7 +1,7 @@
 framework module StagingWalleeSdk {
   umbrella header "StagingWalleeSdk.h"
-  export *
 
+  export *
   module * { export * }
 }
 

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StagingWalleeSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -13,7 +13,6 @@ import TwintSDK
 import UIKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 public enum ConsoleErrorHandler : Swift.String, Foundation.LocalizedError {
   case MissingTokenValue
   public var errorDescription: Swift.String? {
@@ -55,7 +54,7 @@ public struct PaymentResult {
 }
 public class StagingWalleeSdk {
   public static func onHandleOpenURL(url: Foundation.URL) -> Swift.Bool
-  public init(eventObserver: any StagingWalleeSdk.StagingWalleeResultObserver)
+  public init(eventObserver: StagingWalleeSdk.StagingWalleeResultObserver)
   public func launchPayment(token: Swift.String, rootController: UIKit.UIViewController)
   public func configureApplePay(merchantId: Swift.String)
   public func close()
